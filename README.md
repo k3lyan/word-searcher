@@ -26,7 +26,7 @@ The program has been implemented using the following versions:
 The impossibility to use external library like cats-effects has made harder the isolation of side-effects coming from the user.
 The init function of the SearchApp object produce an Either validating or not a correct extraction of the text files content.
 Unitary tests for the Scoring model can be found in ScoringSpec, while CommandSpec ensures that the limit of maximum results remains 10.
-To run the tests, run the command ```sbt test``` from the root directory of this program (adevinta-word-searcher/).
+To run the tests, run the command ```sbt test``` from the root directory of this program (word-searcher/).
 
 ## How to use
 1. Select a directory inside the project where you would like to look for text files (the implementation does not allow to look into subdirectories)
